@@ -31,7 +31,7 @@ resource "google_compute_firewall" "allow_ingress_to_public_server" {
 
   allow {
     protocol = "tcp"
-    ports    = ["22", "80", "443"]
+    ports    = ["22", "80", "443", "8000-9000"] # range 8000-9000 to be assigned to students.
   }
 
 }
