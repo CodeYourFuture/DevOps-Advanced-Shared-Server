@@ -1,4 +1,4 @@
-resource "google_compute_instance" "default" {
+resource "google_compute_instance" "server" {
   name         = "london-8-server"
   machine_type = "e2-standard-2"
   zone         = "europe-west1-b"
@@ -6,7 +6,7 @@ resource "google_compute_instance" "default" {
   boot_disk {
     initialize_params {
       image = "ubuntu-2004-lts" # That is 20.04, not "from the year 2004" :-)
-      size = 30
+      size  = 30
     }
   }
 
@@ -18,5 +18,5 @@ resource "google_compute_instance" "default" {
     }
   }
 
-  tag = ["public-server"]
+  tags = ["public-server"]
 }
