@@ -1,0 +1,7 @@
+# VSCode
+.vscode
+
+# Terraform
+.terraform
+terraform.tfstate*
+terraform.tfvars
