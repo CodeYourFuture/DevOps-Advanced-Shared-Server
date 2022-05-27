@@ -15,3 +15,12 @@ resource "google_compute_subnetwork" "server" {
   region        = "europe-west1"
   private_ip_google_access = true
 }
+
+resource "google_compute_address" "public" {
+  name         = "london-8-server-public-address"
+  description  = "Public address for the London 8 server."
+
+  address_type = "EXTERNAL"
+  region        = "europe-west1"
+}
+
