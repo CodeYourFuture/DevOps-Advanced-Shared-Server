@@ -1,0 +1,11 @@
+---
+- name: Update london8 server with users
+  hosts: localhost # TODO
+  connection: local # TODO
+  # remote_user: root
+  # become: true
+
+  roles:
+    - role: remote-user
+      become: true
+      keylist: "{{ lookup('fileglob', 'ssh-keys/*.pub', wantlist=True) }}"

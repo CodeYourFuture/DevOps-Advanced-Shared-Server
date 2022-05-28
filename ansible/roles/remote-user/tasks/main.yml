@@ -1,0 +1,12 @@
+- name: Create User
+  user:
+    user: "{{ item | basename | splitext | first }}"
+    groups: "docker"
+    shell: /bin/bash
+  loop: "{{ keylist }}"
+
+- name: Set authorized key
+  ansible.posix.authorized_key:
+    user: "{{ item | basename | splitext | first }}"
+    key:  "{{ lookup('file', item) }}"
+  loop: "{{ keylist }}"
