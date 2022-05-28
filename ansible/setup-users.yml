@@ -1,0 +1,21 @@
+---
+- name: Update london8 server with users
+  hosts: localhost # TODO
+  connection: local # TODO
+  # remote_user: root
+  # become: true
+
+  # tasks:
+    # - name: Detect Keys
+    #   set_fact: 
+    #     filename: item
+    #   with_fileglob:
+    #     - "ssh-keys/*.pub"
+    #   register: file_list
+
+
+  roles:
+    - role: remote-user
+      become: true
+      users:
+        - { username: "sample" , key: "banana"}
