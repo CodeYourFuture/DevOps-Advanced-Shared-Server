@@ -1,8 +1,5 @@
 # Public Key list
 
-My ssh key:
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9LYvnXiZjYnQYRvBp2Swi3VmnN1gn3XtKkOmwWnNvhSQkdSZPIV0MNtne88qoQXTKxuzFVyPtNOuYMZ/Wvwh2Q2m4zrP42T+00F2x73Xjry8+FWUcBMs3yRTBNt1xCpAMAsOiGMCHwmfLnZW5ISRXtnK15KeeUHN9D8at7h55epny9L1pTk+0+zv60L7AQoUXn2Q8xbhJVRzfy6Q/lORa5vk1oeZqush18/OvW0iku3ex10Gc8sQs/570EQoy3zhbrhlAGtFzYuQ2SdsbrhBvNtua0C2a1jYZuhAgD/BFuzzBPqbVjF9Y7cQD2fD+Ui7pGl5M6WAe44LxbbmQcGvmkW9rpfgrpcR3rTCxJbECEocGnz3ZB4ovH/wgbNIgTbTFNKhaPgCp6xkSpgt54rcBi5VRkopZF+TgVmgOzM9VNF5w2P1NX1SCxFKBsH/UBuOR+qjaIY8RSKghacCRN3/AwhLLea5V4IEEi34mVUrRcY5qfeyU4/kkhyKqqA7GHC01vTyVu+ifwnjwngVvWoYYAW9L8hY10fWJYM1WAcgTlRKOoAIC87O40Q953h1aQA7A6VRTj21bRuBBlmgnWcTcuXaF1ECpB7lyfMOIf6XkRMSvV8X1JjQKFuwfoMO0SJSEqM1tIJ5rjfOmuZxCBgHg8cvt557vZMvr2l8hCI9rwQ== timea@timea-Inspiron-7560
-
 Copy your PUBLIC key in a file in this folder.
 
 - Name the file with the username that you'd like to use. Only use `a-z` and `-`, all lowercases, no spaces. Add the `.pub` extension.
